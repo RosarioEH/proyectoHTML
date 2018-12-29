@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="imagenes/logoREH.svg" width="150px" height="150px" x="10px"y="10px"></image>
+      </svg>
+      <h1>HOJA DE VIDA</h1>
+      <h2>Datos personales</h2>
+      <h3>
+       <p>Rosario Eloisa H.</p>
+       <p>Fecha de nacimiento: 24/07/1972</p>
+       <p>Lugar de nacimiento: Cuernavaca</p>
+      </h3>
+      </header>
+      <nav>
+         <ul>
+           <li><a href="index.html">Datos personales</a></li>
+           <li><a href="educacion.html">Educacion</a></li>
+           <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culminó</th>
+          <tr>
+        </thead>
+
+        <tbody>
+          <tr><!--Maestría-->
+            <td>1999</td>
+            <td>Colegio de Postgraduados</td>
+            <td>Montecillo, Texcoco, Edo. de México</td>
+            <td>2002</td>
+          </tr>
+          <tr><!--Licenciatura-->
+            <td>1990</td>
+            <td>Instituto Tecnológico de Zacatepec</td>
+            <td>Zacatepec, Morelos</td>
+            <td>1994</td>
+          </tr>
+        </tbody>
+      </table>
+      <form autocomplete="on" name="Estudios">
+        <fieldset>
+          <legend><h3>Agregar estudios</h3></legend>
+          <label for="anio">Año: </label>
+          <select
+             <option>2018</option>
+             <option>2017</option>
+             <option>2016</option>
+             <option>2015</option>
+             <option>2014</option>
+             <option>2013</option>
+             <option>2012</option>
+             <option>2011</option>
+             <option>2010 </option>
+             <option>2009</option>
+          </select>
+          <br><br>
+          <label for="institucion">Institución: </label>
+          <input type="text" id="institucion" required>
+          <br><br>
+          <label for="lugar">Lugar: </label>
+          <textarea name="lugar" rows="3" cols="40"/>
+          </textarea>
+          <br><br>
+          <input type="submit">
+       </fieldset>
+      </form>
+      <footer>
+        <h4>Contacto</h4>
+        <p><em>email: eloisa_h_r@hotmail.com</em></p>
+        <p>Tel. (777) 210 20 37</p>
+      </footer>
+  </body>
+</html>
